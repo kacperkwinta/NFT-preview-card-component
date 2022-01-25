@@ -83,6 +83,11 @@ body {
 
 .box-link:hover {
   color: $hover-crypto;
+  cursor: pointer;
+}
+
+.box-link:focus-visible {
+  outline: 2px dashed red !important;
 }
 
 .box-paragraph {
@@ -172,5 +177,5 @@ body {
 }
 
 a:focus-visible {
-  outline: 2px dashed red ;
+  outline: 2px dashed red;
 }
