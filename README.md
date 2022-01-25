@@ -24,4 +24,4 @@ Thanks for checking my solution 😎
 
 ### Acknowledgments
 
-[This](https://www.frontendmentor.io/solutions/nft-preview-card-component-kOXxYphSg) solution was very helpful
+[This](https://www.frontendmentor.io/solutions/nft-preview-card-component-kOXxYphSg) solution was very helpful (:
