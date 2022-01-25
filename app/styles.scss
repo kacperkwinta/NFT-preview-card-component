@@ -28,7 +28,7 @@ body {
 
 .box {
   background: $card-bg;
-  width: 280px;
+  width: 33rem;
   padding: 1.75rem;
   border-radius: 1rem;
   box-shadow: 0 0 1rem 1rem hsl(217, 54%, 10%);
@@ -70,7 +70,7 @@ body {
 }
 
 .box-header {
-  font-size: 1.7rem;
+  font-size: 2.2rem;
   font-weight: 700;
   margin: 1.75rem 0;
 }
@@ -87,12 +87,12 @@ body {
 }
 
 .box-link:focus-visible {
-  outline: 2px dashed red !important;
+  outline: 0.2rem dashed red !important;
 }
 
 .box-paragraph {
   color: $plain-text;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   font-weight: 300;
 }
 
@@ -107,50 +107,48 @@ body {
 .box-wrapper--crypto {
   display: flex;
   align-items: center;
-  color: $hover-crypto;
-  font-weight: 700;
-  font-size: 1.1rem;
 }
 
 .crypto-img {
-  height: 1.4rem;
+  height: 1.7rem;
   margin-right: 0.5rem;
 }
 
 .crypto-value {
-  font-size: 1.2rem;
+  font-size: 1.65rem;
+  font-weight: 400;
+  color: $hover-crypto;
 }
 
 .box-wrapper--time {
   display: flex;
   align-items: center;
-  color: $plain-text;
-  font-size: 1.1;
 }
 
 .time-img {
-  height: 1.4rem;
+  height: 1.7rem;
   margin-right: 0.5rem;
 }
 
 .time-value {
-  font-size: 1.2rem;
+  font-size: 1.65rem;
+  color: $plain-text;
 }
 
 .box-wrapper--profile {
   padding-top: 1.25rem;
   padding-bottom: 0.75rem;
-  border-top: 1px solid $line;
+  border-top: 0.1rem solid $line;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   color: $plain-text;
 }
 
 .profile-img {
   width: 2.5rem;
-  border: 1px solid $white;
+  border: 0.1rem solid $white;
   border-radius: 5rem;
   margin-right: 1rem;
 }
@@ -167,7 +165,7 @@ body {
   bottom: 0;
   right: 0;
   left: 0;
-  margin-bottom: 15px;
+  margin-bottom: 1.5rem;
   text-align: center;
   font-size: 1.1rem;
 
@@ -177,5 +175,5 @@ body {
 }
 
 a:focus-visible {
-  outline: 2px dashed red;
+  outline: 0.2rem dashed red;
 }
