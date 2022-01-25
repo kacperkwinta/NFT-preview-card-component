@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap");
+
+$plain-text: hsl(215, 51%, 70%);
+$hover-crypto: hsl(178, 100%, 50%);
+$main-bg: hsl(217, 54%, 11%);
+$card-bg: hsl(216, 50%, 16%);
+$line: hsl(215, 32%, 27%);
+$white: hsl(0, 0%, 100%);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background: $main-bg;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background: $card-bg;
+  width: 280px;
+  padding: 1.75rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem 1rem hsl(217, 54%, 10%);
+}
+
+.box-wrapper--img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.box-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.img-hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.image-hover-eye {
+  width: 4.8rem;
+  height: 4.8rem;
+}
+
+.img-hover:hover {
+  cursor: pointer;
+  opacity: 1;
+  background-color: rgba(0, 255, 247, 0.7);
+}
+
+.box-header {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin: 1.75rem 0;
+}
+
+.box-link {
+  text-decoration: none;
+  transition: 0.4s;
+  color: $white;
+}
+
+.box-link:hover {
+  color: $hover-crypto;
+}
+
+.box-paragraph {
+  color: $plain-text;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.box-wrapper {
+  height: 2rem;
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box-wrapper--crypto {
+  display: flex;
+  align-items: center;
+  color: $hover-crypto;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.crypto-img {
+  height: 1.4rem;
+  margin-right: 0.5rem;
+}
+
+.crypto-value {
+  font-size: 1.2rem;
+}
+
+.box-wrapper--time {
+  display: flex;
+  align-items: center;
+  color: $plain-text;
+  font-size: 1.1;
+}
+
+.time-img {
+  height: 1.4rem;
+  margin-right: 0.5rem;
+}
+
+.time-value {
+  font-size: 1.2rem;
+}
+
+.box-wrapper--profile {
+  padding-top: 1.25rem;
+  padding-bottom: 0.75rem;
+  border-top: 1px solid $line;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.3rem;
+  color: $plain-text;
+}
+
+.profile-img {
+  width: 2.5rem;
+  border: 1px solid $white;
+  border-radius: 5rem;
+  margin-right: 1rem;
+}
+
+.profile-link {
+  margin-left: 0.3rem;
+  color: white;
+}
+
+// footer
+.attribution {
+  color: $plain-text;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 1.1rem;
+
+  a {
+    color: $hover-crypto;
+  }
+}
