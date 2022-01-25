@@ -23,3 +23,5 @@ Thanks for checking my solution 😎
 - My Frontend Mentor profile 💻: [click!](https://www.frontendmentor.io/profile/kacperkwinta)
 
 ### Acknowledgments
+
+[This](https://www.frontendmentor.io/solutions/nft-preview-card-component-kOXxYphSg) solution was very helpful
