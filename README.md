@@ -1,6 +1,6 @@
 # Frontend Mentor - NFT preview card component
 
-![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
+![Design preview for the NFT preview card component coding challenge](./design/desktop-design.jpg)
 
 ## Welcome! 👋
 
@@ -18,8 +18,10 @@ Thanks for checking my solution 😎
 
 ### Links 🌐
 
-- Live Site URL 🔴: [click!]()
+- Live Site URL 🔴: [click!](https://kacperkwinta.github.io/NFT-preview-card-component/)
 - Repo with other challenges 📁: [click!](https://github.com/kacperkwinta/Frontend-Mentor)
 - My Frontend Mentor profile 💻: [click!](https://www.frontendmentor.io/profile/kacperkwinta)
 
 ### Acknowledgments
+
+[This](https://www.frontendmentor.io/solutions/nft-preview-card-component-kOXxYphSg) solution was very helpful
