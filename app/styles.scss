@@ -170,3 +170,7 @@ body {
     color: $hover-crypto;
   }
 }
+
+a:focus-visible {
+  outline: 2px dashed red ;
+}
